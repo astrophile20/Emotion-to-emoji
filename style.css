@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body {
+  color: white;
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.heading {
+  font-size: 30px;
+  border-radius: 8px;
+  letter-spacing: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  background-color: coral;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  width: 520px;
+  height: 80px;
+}
+
+span {
+  font-size: 30px;
+}
+
+#camera,
+#result {
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px;
+}
+
+#result_emotion_name,
+#result_emotion_name2 {
+  color: black;
+}
+
+.emotion_name {
+  font-size: 40px;
+}
+
+.emoji {
+  font-size: 48px;
+}
+
+.heading:hover {
+  cursor: default;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+button {
+  background-color: crimson;
+  font-family: 'Knewave', cursive;
+  font-size: 23px;
+  width: 220px;
+  height: 50px;
+  border-radius: 8px;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.predict_lbl {
+  padding: 6px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
